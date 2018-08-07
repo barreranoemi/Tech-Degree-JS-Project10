@@ -13,7 +13,7 @@ block content
       strong Return By: #{loan.return_by}
       form(method='post' action=`/books/return/${loan.book_id}`)
     p
-      label(for='returned_on') Returned on:
-      input#returned_on(type='text' name='returned_on' value=`${todaysDate}`)
+        label(for='returned_on') Returned on:
+        input#returned_on(type='text' name='returned_on' value=`${todaysDate}`)
     p
-      input(type='submit' value='Return Book')
+        input(type='submit' value='Return Book')
